@@ -1,0 +1,57 @@
+.navbar .btn-outline-light:hover{
+background-color: #fff;
+}
+.nav-link {
+    color:white
+}
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.scrolled {
+    background-color:#2b3041;
+    opacity:0.9;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.nav-link:hover{
+  color:var(--bs-primary);
+  
+}
+.navBgSmall:hover{
+    background-color: #2b3041;
+    opacity: 0.9;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);   
+}
+@media (max-width: 991px) {
+    .navBgSmall {
+      background-color: #2b3041;
+      opacity: 0.9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+.modal-dialog{
+    max-width:75vw ;
+}
+
+
+.nav-link.btn-outline-light{
+    width: 150px;
+}
+.img-bg{
+    background-image: url(../images/download-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+//placeholder style
+/**input {
+    &::placeholder {
+      font-weight: 600;
+    }
+  }
+  .margin-top{
+    margin-top:-150px;
+  }
+  **/
